@@ -3,6 +3,7 @@ import bodyParser from 'body-parser';
 import bukuRoute from "./route/buku.js";
 import orangRoute from "./route/orang.js";
 
+const app = express();
 const port = 8000;
 
 app.use(bodyParser.json());
